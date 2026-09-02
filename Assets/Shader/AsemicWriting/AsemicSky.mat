@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AsemicSky
+  m_Shader: {fileID: 4800000, guid: 420bd6aed29506644a260e14140ae92f, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GlyphAtlas:
+        m_Texture: {fileID: 2800000, guid: 00d1f41a7d656784eba225af40a26285, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AfternoonGlyphOpacity: 0.55
+    - _AtlasCols: 8
+    - _AtlasRows: 8
+    - _AutoCycle: 1
+    - _CycleSpeed: 0.02
+    - _DayGlyphOpacity: 0.35
+    - _DriftAmount: 0.5
+    - _DriftSpeed: 0.03
+    - _GlowStrength: 0.25
+    - _GlyphAngularSize: 2.5
+    - _GlyphRotationAmount: 3.14159
+    - _GlyphSizeVariation: 0.6
+    - _GridResolution: 8
+    - _InvertInk: 0
+    - _NightGlyphOpacity: 0.8
+    - _RotationDrift: 0.05
+    - _Seed: 1337
+    - _TimeOfDay: 0
+    m_Colors:
+    - _AfternoonBottom: {r: 0.9, g: 0.62, b: 0.54999995, a: 1}
+    - _AfternoonGlyphColor: {r: 0.17999998, g: 0.09999997, b: 0.06999998, a: 1}
+    - _AfternoonHorizon: {r: 0.97999996, g: 0.65999997, b: 0.37999994, a: 1}
+    - _AfternoonTop: {r: 0.41999996, g: 0.52, b: 0.72, a: 1}
+    - _DayBottom: {r: 0.96, g: 0.94, b: 0.88, a: 1}
+    - _DayGlyphColor: {r: 0.09999997, g: 0.089999996, b: 0.079999976, a: 1}
+    - _DayHorizon: {r: 0.93, g: 0.9, b: 0.82, a: 1}
+    - _DayTop: {r: 0.54999995, g: 0.68, b: 0.82, a: 1}
+    - _NightBottom: {r: 0.049999982, g: 0.049999982, b: 0.11999995, a: 1}
+    - _NightGlyphColor: {r: 0.8, g: 0.8399999, b: 1, a: 1}
+    - _NightHorizon: {r: 0.09999997, g: 0.089999996, b: 0.21999997, a: 1}
+    - _NightTop: {r: 0.03, g: 0.04, b: 0.09999997, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
